@@ -20,6 +20,7 @@
         "web.assets_backend": [
             "g2p_auth_id_oidc/static/src/js/authentication_status.js",
             "g2p_auth_id_oidc/static/src/xml/authentication_status.xml",
+            "g2p_auth_id_oidc/static/src/scss/g2p_authentication.css",
         ],
         "web.assets_qweb": [],
     },
