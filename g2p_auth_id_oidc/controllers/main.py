@@ -46,14 +46,13 @@ class RegIdOidcController(http.Controller):
                 reg_id.partner_id.update({"reg_ids": validation["reg_ids"]})
                 response_values["authentication_status"] = True
                 reg_id.last_authentication_user_id = request.env.user.id
-                # reg_id.description = ""
+                reg_id.description = None
                 response_values["validation"] = validation
             else:
                 reg_id.update(
                     {
                         "authentication_status": "not_authenticated",
                         "description": "ID value does not match",
-                        # "status": "invalid",
                     }
                 )
         except Exception:

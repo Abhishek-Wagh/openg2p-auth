@@ -3,7 +3,7 @@
     <template id="g2p_reg_id_authenticate" name="Authenticate">
         <t t-call="web.layout">
             <t t-set="title">Authenticate</t>
-            <link rel="stylesheet" href="/g2p_auth_id_oidc/static/src/scss/g2p_authentication.css" />
+            <link rel="stylesheet" href="/g2p_auth_id_oidc/static/src/css/g2p_authentication_response.css" />
             <div class="auth_response" id="auth_response">
                 <t t-if="authentication_status">
                     <div class="modal-header">
