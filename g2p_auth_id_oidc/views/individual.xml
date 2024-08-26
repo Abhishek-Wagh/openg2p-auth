@@ -15,7 +15,6 @@
                     string=""
                     widget="g2p_auth_id_oidc.reg_id_auth_status"
                     readonly="1"
-                    options="{'statusClass': '', 'buttonClass': ''}"
                 />
             </xpath>
         </field>
